@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment{ 
+    margin-top: 65px;
+    overflow: hidden;
+    width: 470px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    
+}
+.box {
+    height: 100vh;
+    padding: 20px;
+    background-color: rgb(70,107,217);
+    display: flex;
+    justify-content: space-between;
+}
+
+.radius {
+  justify-content: center;
+}
+
+.logoposition{
+    position: relative;
+    bottom: 73px;
+    float: right;
+}
+.trilllogo{
+    width: 100px;
+}
+.payment {
+    overflow: hidden;
+    width: 470px;
+  
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+
+.payment h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom:41px;
+    
+}
+
+.payment-header {
+    border-bottom: 1px solid #ccc;
+}
+
+.payment p {
+    font-size: 18px;
+    margin-top: 8px;
+    font-weight: 400;
+    margin-bottom:0px;
+    color: #818181;
+}
+
+.payment .payment-value {
+ 
+    display: flex;
+    align-items: center;
+}
+
+.payment .payment-value .value {
+    font-size: 23px;
+    font-weight: 500;
+   
+    color:  rgb(70,107,217);
+}
+
+.payment .payment-method .value {
+    font-size: 23px;
+    font-weight: 500;
+   
+    color:  rgb(70,107,217);
+}
+
+.payment .payment-value .discount {
+    border-radius: 5px;
+    padding: 6px;
+    background-color: #ffe7e1;
+    color: #f67254;
+}
+
+
+.payment .payment-method {
+    margin-top: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    
+}
+
+.payment .payment-method p {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom:0px;
+    font-weight: 400;
+    color: #818181;
+}
+
+.payment .payment-options {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.payment .payment-options .method-one, .method-two {
+    width: 45%;
+    padding: 15px;
+    background-color: #9dda1d;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    border: 2px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.payment .payment-options .method-one:hover, .payment .payment-options .method-two:hover {
+    border: 2px solid #7a08a7;
+}
+
+.payment .payment-options .method-one p, .payment .payment-options  .method-two p {
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+.payment .payment-card {
+    margin-top: 20px;
+}
+.payment .payment-card .bord{
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+
+}
+.payment-card p{
+    margin-bottom: 10px;
+}
+
+.payment .payment-card span {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.payment .payment-card input {
+    width: 100%;
+    padding: 15px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.payment .payment-card .two-box {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment .payment-card .two-box .valid {
+    margin-right: 5px;
+}
+
+.payment .payment-card .two-box .valid input {
+    width: 100%;
+}
+
+.payment .payment-card .two-box .ccv input {
+    width: 100%;
+}
+
+.payment .payment-card .input-name-card {
+    margin-top: 15px;
+}
+
+.payment .save-card {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.payment .save-card span {
+    margin-left: 5px;
+    color: #474747;
+    font-size: 18px;
+    margin-top: -4px;
+    cursor: pointer;
+}
+
+.payment .btn-payment {
+    width: 100%;
+    height: 60px;
+    margin-top: 72px;
+    background-color: #7a08a7;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.payment .btn-payment:hover {
+    background-color: #a957d2;
+}
+.payment .btn-payment p {
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    margin-top: 0;
+}
+.createAccount {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .createAccount button {
+    background-color: rgb(70,107,217);
+    color: #fff;
+    border: 2px solid #fff;
+    width: 100%;
+    margin-top: 2em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .createAccount button:hover {
+    color: rgb(70,107,217);
+    background-color: #fff;
+    border: 2px solid rgb(70,107,217);
+  }
+  .payment-method button{
+    background-color: rgb(70,107,217);
+    color: #fff;
+    border: 2px solid #fff;
+    width: 30%;
+    margin-top: 0.2em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    margin-left: -3px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .display-error-msg{
+ color: darkred;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  #alert-cancel-subscription {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -293px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  top:30px;
+  left: 50%;
+  font-size: 17px;
+}
+
+#alert-cancel-subscription.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+ #alerts-update {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -293px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  top:30px;
+  left: 50%;
+  font-size: 17px;
+}
+
+#alerts-update.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {top: 0; opacity: 0;} 
+  to {top: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {top: 0; opacity: 0;}
+  to {top: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {top: 30px; opacity: 1;} 
+  to {top: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {top: 30px; opacity: 1;}
+  to {top: 0; opacity: 0;}
+}

@@ -1,0 +1,63 @@
+.invoice-box {
+    max-width: 800px;
+    margin: 15px  auto;
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+    font-size: 16px;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    color: #555;
+}
+.table-boot{
+    font-size: 12px;
+}
+.logo-invoice-trillup{
+    float: left;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.heading1{
+    display: flex;
+}
+.heading1 h3{
+    margin-left: 120px;
+    margin-top: 5px;
+    color: rgb(139, 130, 130);
+}
+.content1 {
+    font-size: 12px;
+}
+.content2{
+    font-size: 12px;
+}
+.bill-amount{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.pdf button{
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+.pdf invoice-pdf{
+    cursor: pointer;
+    text-decoration: none;
+}
+.pdf .fa{
+    font-size: 20px;
+    color:red;
+}
+.pdf{
+  position: absolute;
+    right: 1px;
+    border:1px solid grey;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:rgb(239,239,239);
+    float: right;
+    cursor: pointer;
+}
+

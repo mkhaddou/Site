@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: 	#F0F0F0;
+    font-family: Montserrat;
+}
+.trillup-logo{
+    width: 100px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.cardBg{
+    background-color: #F2F5FC;
+    display: flex;
+    padding: 100px;
+    box-shadow: 0px 8px 43px rgba(127, 156, 230, 0.2);
+}
+.card .card-style-errors{
+	color:red;
+}
+.card1{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+ .cardBg1{
+    height: 80vh;
+    background-color: #F2F5FC;
+    justify-content: center;
+    box-shadow: 0px 8px 43px rgba(127, 156, 230, 0.2);
+}
+
+.right{
+    margin-left: 50px;
+    
+}
+
+.small{
+    color: #84A5C6;
+    font-size: 20px;
+    
+    margin: 0;
+}
+
+.head{
+    margin: 0;
+    position: relative;
+    right: -12px;
+    font-size: 32px;
+    color: #064B8D;
+    
+}
+
+.method button{
+    background-color: white;
+    border: 1px solid #DCE3EA;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #064B8D;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.label-style{
+	
+	  
+font-weight:bold;
+color: #064B8D;
+
+}
+
+.padding {
+    padding: 5rem !important
+}
+
+.form-control:focus {
+    box-shadow: 10px 0px 0px 0px #ffffff !important;
+    border-color: #4ca746
+}
+.pp{
+    max-width: 173px;
+}
+
+
+.check{
+    padding: 499px;
+}
+
+.ccnum{
+    color: #064B8D;
+    size: 16px;
+}
+
+#ccField{
+    padding: 20px;
+    border: 0.5px solid  #DCE3EA;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.color{
+    color: #A1AAB2;
+}
+
+.btn{
+    padding: 20px;
+    background-color: #064B8D;
+    border: 1px solid #064B8D;
+    color: white;
+    width: 50%;
+}
+.tick{
+    width: 40px;
+    height: 40px;
+}
+strong{
+    color: #064B8D;
+}
+.img-logo-trillup{
+   height: 100px;
+    position: relative;
+    top: -26px;
+    /* margin-right: 8px; */
+    color: rgb(242,245,252);
+    background-color: rgb(242,245,252);
+}
+.logo{ 
+    margin-top: 10px;
+}
+.img-logo-trillup1{
+    height: 80px;
+    color: rgb(242,245,252);
+    background-color: rgb(242,245,252);
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      .left{
+          display: none;
+      }
+
+      .card{
+        overflow-x: hidden;
+        margin-right: 30px;
+        
+      }
+
+      .btn{
+          width: 100%;
+      }
+
+      .b{
+          width: 100%;
+      }
+
+      body{
+          background-color: #F2F5FC;
+      }
+
+      .month{
+          margin-right: 18px;
+      }
+}

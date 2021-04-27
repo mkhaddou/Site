@@ -1,0 +1,24 @@
+/*
+THE WEBSITE WAS DESIGNED AND CREATED FOR CASBN BY BIZHTECH (www.bizhtech.com)
+CONTACT: bizhtech1@gmail.com
+
+BIZHTECH IS NOT RESPONSIBLE AND WILL NOT BE HELD RESPONSIBLE IN ANY COURT OF LAW FOR ANY USE OF COPYRIGHTED CONTENT ON THIS WEBSITE OR BY CASBN THAT MAY RESULT IN BREACH OF ANY INTELLECTUAL PROPERTY RIGHTS
+CASBN IS RESPONSIBLE FOR ENSURING THAT THEY HAVE THE RIGHT TO PUBLISH THE CONTENT, MEDIA, VISIUALS OR ANYTHING ON THIS WEBSITE
+COPYRIGHT CASBN
+*/
+.modal-content{
+  background-color: #e6e6e6 !important;
+}
+.modal-content h3, .modal-content h4, .modal-title{
+  color: #407ce7;
+  letter-spacing: 2px;
+}
+.modal-content ul li{
+  font-weight: bold;
+}
+.modal-content p, .modal-content li{
+  color: #124f8b;
+}
+.modal-content p{
+  text-align: justify;
+}

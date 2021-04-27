@@ -1,0 +1,399 @@
+/*
+THE WEBSITE WAS DESIGNED AND CREATED FOR CASBN BY BIZHTECH (www.bizhtech.com)
+CONTACT: bizhtech1@gmail.com
+
+BIZHTECH IS NOT RESPONSIBLE AND WILL NOT BE HELD RESPONSIBLE IN ANY COURT OF LAW FOR ANY USE OF COPYRIGHTED CONTENT ON THIS WEBSITE OR BY CASBN THAT MAY RESULT IN BREACH OF ANY INTELLECTUAL PROPERTY RIGHTS
+CASBN IS RESPONSIBLE FOR ENSURING THAT THEY HAVE THE RIGHT TO PUBLISH THE CONTENT, MEDIA, VISIUALS OR ANYTHING ON THIS WEBSITE
+COPYRIGHT CASBN
+*/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 1031;
+  transition: 2s ease-in-out;
+}
+#preloader .row{
+  padding-top: 50vh;
+  transform: translateY(-25%);
+}
+#preloader img{
+  height: 200px !important;
+}
+#preloader img{
+  position: relative;
+  margin: 0 auto;
+  -webkit-animation: spin 1.5s ease-in-out infinite;
+  animation: spin 1.5s ease-in-out infinite;
+}
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.fadeItOut{
+  animation: fadeout 2s ease-in-out both;
+  -webkit-animation: fadeout 2s ease-in-out both;
+}
+@keyframes fadeout {
+  0% { opacity: 1;}
+  100% { opacity: 0; }
+}
+@-webkit-keyframes fadeout {
+  0% { opacity: 1;}
+  100% { opacity: 0; }
+}
+/*||||||||||||||||||||||||||||||||*/
+/*  NAVIGATION BAR STYLES START  */
+/*|||||||||||||||||||||||||||||||*/
+.navbar-brand img{
+  height: 55px;
+}
+.fa-bars{
+color: #000;
+}
+#topnav{
+ -webkit-transition: 0.45s all cubic-bezier(0.55, 0, 0.1, 1);
+  transition: 0.45s all cubic-bezier(0.55, 0, 0.1, 1);
+  background-color: white;
+  font-family: 'Inter','Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  border-bottom: 1px solid black;
+}
+#topnav .dropdown-menu-right{
+  right: auto !important;
+  background-color: #fff;
+}
+.navbar-nav a{
+  font-weight: bold;
+  opacity: 1;
+  font-family: 'Inter','Lato','Sarabun',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.navbar-nav a.active{
+  color: #174d82;
+}
+.navbar-shadow{
+  width: 100%;
+  border-radius: 2px;
+  box-shadow: 0 0px 15px rgb(0,0,0,0.25);
+}
+nav ul li{
+  padding: 10px
+}
+nav ul li a.current{
+  border: 1px solid transparent;
+  color:#174d82;
+  background-color: #174d82;
+}
+
+@media (min-width:999px) {
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  .dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+  }
+}
+@media (max-width: 992px){
+  #topnav{
+    background-color: #fff;
+  }
+  #topnav .fa-bars{
+    font-size: 1.5em;
+  }
+  #navbarResponsive{
+    height: 100%;
+    background-color: #fff !important;
+  }
+  .navbar-nav{
+    margin-top: 0px;
+  }
+}
+nav .bl a::after {
+	content: '';
+	display: block;
+	height: 3px;
+	background-color: #174d82;
+  top: 0;
+	width: 0%;
+	transition: all ease-in-out 175ms;
+}
+nav .bl a:hover::after{
+	width: 100%;
+}
+/*||||||||||||||||||||||||||||||||*/
+/*   NAVIGATION BAR STYLES END   */
+/*|||||||||||||||||||||||||||||||*/
+
+
+
+/*||||||||||||||||||||||||||||||||*/
+/*      LANDING STYLES START     */
+/*|||||||||||||||||||||||||||||||*/
+
+#aboutLanding{
+  padding-top: 82px;
+  background-color: #edf2f8;
+}
+#landingHeading{
+  padding-top: 80px;
+  padding-left: 40px;
+  color: #062649;
+  padding-bottom: 82px;
+}
+#landingHeading h5{
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+#landingHeading h1{
+  font-size: 5rem;
+  text-transform: uppercase;
+  line-height: 1;
+}
+#landingHeading p{
+  font-size: 1.15rem;
+}
+#paraStart{
+  margin-top: 35px;
+}
+#landImgCol{
+  padding-right: 0 !important;
+}
+.bolder{
+  font-weight: bolder;
+}
+@media (max-width: 992px){
+  #landingHeading h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+}
+@media (max-width: 768px){
+  #landingHeading{
+    padding-bottom: 40px;
+  }
+}
+/*||||||||||||||||||||||||||||||||*/
+/*       LANDING STYLES END      */
+/*|||||||||||||||||||||||||||||||*/
+
+
+
+/*||||||||||||||||||||||||||||||||*/
+/*       WHY US STYLES START     */
+/*|||||||||||||||||||||||||||||||*/
+#whyUsCard{
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 0px 0px 30px #062649;
+  border-radius: 20px;
+  margin-top: -82px;
+  position: relative;
+  z-index: 1000;
+  padding-bottom: 40px;
+  color: #062649;
+}
+#whyUs ul{
+  list-style: none;
+}
+.listitems{
+  padding-right: 30px;
+}
+#whyUs ul li{
+  padding: 20px;
+  font-size: 1.7rem;
+  color: #212529;
+}
+#downloadContainer{
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  border-radius: 20px;
+  background-color: #142952;
+  box-shadow: 0 0 40px black;
+  color: white;
+}
+#downloadContainer h3{
+  margin-bottom: 10px;
+}
+/*||||||||||||||||||||||||||||||||*/
+/*        WHY US STYLES END      */
+/*|||||||||||||||||||||||||||||||*/
+
+
+
+/*||||||||||||||||||||||||||||||||*/
+/*        WCYD STYLES START      */
+/*|||||||||||||||||||||||||||||||*/
+#wcyd{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #edf2f8;
+  color: #062649;
+}
+#wcyd h2{
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+/*||||||||||||||||||||||||||||||||*/
+/*        WCYD STYLES END         */
+/*|||||||||||||||||||||||||||||||*/
+
+
+
+/*||||||||||||||||||||||||||||||||*/
+/*      COUNTER STYLES START      */
+/*|||||||||||||||||||||||||||||||*/
+#hoursCounter{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: linear-gradient(-90deg, #006699, #062649);
+  background: -webkit-linear-gradient(-90deg, #006699, #062649);
+  background: -moz-linear-gradient(-90deg, #006699, #062649);
+  background: -o-linear-gradient(-90deg, #006699, #062649);
+  color: white;
+  text-shadow: 3px 3px black;
+  cursor: default;
+}
+#hoursCounter #headingCounter{
+  margin-bottom: 20px;
+}
+#hoursCounter #counters #plus{
+  font-size: 2rem;
+}
+@media (max-width:768px) {
+  #hoursCounter #headingCounter h1{
+    font-size: 2rem !important;
+  }
+}
+/*||||||||||||||||||||||||||||||||*/
+/*       COUNTER STYLES END      */
+/*|||||||||||||||||||||||||||||||*/
+
+
+
+/*||||||||||||||||||||||||||||||||*/
+/*   TESTIMONIALS STYLES START   */
+/*|||||||||||||||||||||||||||||||*/
+#testimonials{
+  background-color: #edf2f8;
+  padding-top: 40px;
+  padding-bottom: 40px
+}
+#quoteImg{
+  max-width: 25% !important;
+  margin: 0 auto;
+}
+#testimonials .card{
+  height: auto;
+  transform: scale(0.95);
+}
+#centerCard{
+  transform: scale(1.05) !important;
+}
+@media (max-width:768px) {
+  #testimonials .card{
+    margin-bottom: 15px;
+  }
+}
+/*||||||||||||||||||||||||||||||||*/
+/*    TESTIMONIALS STYLES END    */
+/*|||||||||||||||||||||||||||||||*/
+
+
+
+/*||||||||||||||||||||||||||||||||*/
+/*      FOOTER STYLES START       */
+/*|||||||||||||||||||||||||||||||*/
+
+
+footer #heroLogo{
+  width: 100% !important;
+  -webkit-filter: drop-shadow(1px 3px 2px #222);
+  filter: drop-shadow(1px 3px 2px #222);
+}
+footer{
+  color: #e6e6e6;
+}
+
+.footer-centering{
+  width: 100%;
+}
+.footer-centering img{
+  margin: 0 auto !important;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%) !important;
+}
+footer .fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #fff;
+}
+.fa-youtube{
+  background: #c4302b;
+  color: white;
+}
+.fa-instagram {
+  background: #c13584;
+  color: white;
+}
+footer h5 span{
+  font-size: 1rem;
+}
+@media (max-width:992px) {
+  footer #heroLogo{
+    width: 100% !important;
+  }
+}
+@media (max-width:768px) {
+  footer #heroLogo{
+    width: 25% !important;
+  }
+  footer #imgCol{
+    display: flex;
+    justify-content: center;
+  }
+  footer #contactCol h5, footer #smCol h5{
+    text-align: center !important ;
+  }
+  footer #icCol{
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,142 @@
+
+.main{
+    height: 100vh;
+}
+ .login-image{
+     width: 500px;
+     height: 600px;
+     margin-left: 50px;
+}
+.img-section{
+    background-color: rgb(248,248,248);
+   
+}
+.edit{
+    padding-right: 0;
+}
+.input-group-text{
+    border:none;
+    background: none !important;
+}
+form{
+    width:80%;
+}
+
+.text-box,.password-box{
+    border:none;
+    outline: none;
+}
+.second-half{
+    margin-top: 40px;
+}
+.login-button{
+    border:none;
+    background-color: #2a71ba;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+.google,.facebook{
+    height: 29px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 6px;
+}
+.text-box:focus,.password-box:focus {
+    box-shadow: none;
+}
+.addradius{
+    border-radius: 10px;
+}
+.links{
+    width:fit-content;
+}
+
+.links a {
+    text-decoration: none;
+    color: #111;
+}
+
+.active {
+    color: #2a71ba !important;
+    border-bottom: 1px solid #2a71ba;
+}
+
+section{
+    width: 100%;
+    margin-top: 60px;
+}
+
+.sub-heading{
+    font-size: 15px;
+}
+
+section {
+    width: 100%;
+    margin-top: 60px;
+  }
+  .google,
+  .facebook {
+    height: 29px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 6px;
+  }
+  .login-create-links{
+      margin-left: 100px;
+  }
+  .text-center .register-button {
+    border: none;
+    background-color: #2a71ba;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 30px;
+  }
+  .outerradius {
+    border-radius: 10px;
+  }
+  .input-group-text {
+    border: none;
+    background: none !important;
+  }
+  .input-boxes {
+    border: none;
+    box-shadow: none;
+  }
+  .form-group {
+    width: 80%;
+  }
+  .links {
+    width: fit-content;
+  }
+  .links a {
+    text-decoration: none;
+    color: #111;
+  }
+  .active {
+    color: #2a71ba !important;
+    border-bottom: 1px solid #2a71ba;
+  }
+  .sub-heading {
+    font-size: 15px;
+  }
+  .google-fb-links {
+    font-size: 15px;
+    margin: 0;
+  }
+  .existing-account {
+    font-size: 13px;
+  }
+  .password-validation {
+    font-size: 13px;
+  }
+  .login-img{
+    width: 500px;
+    height: 600px;
+    margin-left: 50px;
+}
+.edit{
+    padding-right: 0;
+}  
